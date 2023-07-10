@@ -21,28 +21,28 @@ The goal of this project was to design and implement a SQLite database for stori
 ## Conceptual database design 
 The conceptual database design is represented by an Entity-Relationship (ER) diagram. The diagram illustrates the relationships between different entities and their attributes. In this case, the diagram depicts the relationships between sensors, entities, and metrics. Each sensor is associated with multiple entities, and each entity corresponds to multiple metrics.
 
-![ER-Diagram](images/ERdiagram.png)
+<img src="https://github.com/NielsU97/Measering-Air-Quality/blob/main/Documentation/images/ERdiagram.png" width="300">
 
 ## Logical database design 
 The logical database design defines the structure of the database tables and their attributes. The tables include 'sensors,' 'entities,' and 'metrics.' The 'sensors' table stores information about the sensors, such as their names and addresses. The 'entities' table represents the entities measured by the sensors, along with their corresponding sensor names. The 'metrics' table contains the actual measurement data, including the entity, timestamp, datetime, value, and unit.
 
-![Logical Design](images/LogicalDesign.png)
+<img src="https://github.com/NielsU97/Measering-Air-Quality/blob/main/Documentation/images/LogicalDesign.png" width="500">
 
 ## Dashboard
 To visualize and interact with the stored data, a dashboard is implemented using Home Assistant. 
 
-![Dashboard](images/GUI.png)
+<img src="https://github.com/NielsU97/Measering-Air-Quality/blob/main/Documentation/images/GUI.png" width="500">
 
-![Dashboard Temperature Graph](images/GUI_2.png)
+<img src="https://github.com/NielsU97/Measering-Air-Quality/blob/main/Documentation/images/GUI_2.png" width="500">
 
 ## Implementation
 The database is implemented in Home Assistant. It uses the SQL database integration, which makes it possible to read out databases using queries. 
 
-![Dashboard](images/Integration.png)
+<img src="https://github.com/NielsU97/Measering-Air-Quality/blob/main/Documentation/images/Integration.png" width="600">
 
 The figure below shows the working implementation. The most recent data is displayed in Home Assistant and matches the correct value in the database.
 
-![Dashboard](images/DatabaseGUI.png)
+<img src="https://github.com/NielsU97/Measering-Air-Quality/blob/main/Documentation/images/DatabaseGUI.png" width="600">
 
 ## Appendix A: Configuration Dashboard
 
