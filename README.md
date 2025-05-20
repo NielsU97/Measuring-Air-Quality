@@ -1,4 +1,4 @@
-Designing a SQLite Database {#mainpage}
+Designing a SQLite Database
 =========
 
 This report presents the development of a C++ program that creates a SQLite database and stores measurement data in it. The program is designed to interact with home automation software, specifically Home Assistant, to display the stored data.
